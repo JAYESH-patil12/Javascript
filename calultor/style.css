@@ -10,7 +10,7 @@ body {
 
 .calculator {
     width: 500px;
-    background-image: url("/img/cal.jpg");
+    background-image: url("./img/cal.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
