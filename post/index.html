@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram Post Clone</title>
+    <link rel="stylesheet" href="./css/fontawesome.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="post">
+      <div class="post-header">
+        <img src="./rw.svg" alt="Profile Picture" class="profile-pic" />
+        <span class="username">R&W 5</span>
+      </div>
+      <img src="./post1.jpeg" alt="Post Image" class="post-image" />
+      <div class="post-actions">
+        <button class="like-btn">
+            <i class="fa-regular fa-heart " style="font-size: 35px; "></i>
+        </button>
+        <button class="comment-btn">
+          <i class="fa-regular fa-comment" style="font-size: 35px; color: #17e214"></i>
+        </button>
+        <button class="save-btn">
+          <i class="fa-regular fa-bookmark" style="font-size: 35px; color: #0083ee"></i>
+        </button>
+        <button class="share-btn">
+          <i class="fa-solid fa-share-from-square" style="font-size: 35px; color: #df7613"></i>
+        </button>
+      </div>
+      <div class="post-likes">0 likes</div>
+      <div class="post-comments">
+        <input
+          type="text"
+          class="comment-input"
+          placeholder="Add a comment..."
+        />
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
