@@ -1,5 +1,6 @@
-import { createElement, getElement } from "F:\JavaScript-main\Local Storage\Components\Helper.js";
-import { navbar_Components, navbar_Styles } from "F:\JavaScript-main\Local Storage\Components\index.html";
+import { createElement, getElement } from "../Components/Helper.js";
+import { navbar_Components, navbar_Styles } from "../Components/Navbar.js";
+
 
 const cartList = JSON.parse(localStorage.getItem("cartList")) || [];
 const isLogin = localStorage.getItem("isLogin") || false;
@@ -162,7 +163,7 @@ const existUser = () => {
     } else cartPage_UI(cartList);
   } else {
     alert("You have to login first!!");
-    window.location.href = "F:\JavaScript-main\Local Storage\HTML\Login.html";
+    window.location.href = "\JavaScript-main\Local Storage\HTML\Login.html";
   }
 };
 

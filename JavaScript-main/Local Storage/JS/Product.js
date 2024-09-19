@@ -1,10 +1,6 @@
-import {
-  createElement,
-  getElement,
-  getElementQuerySelector,
-  getValue,
-} from "F:\JavaScript-main\Local Storage\Components\Helper.js";
-import { navbar_Components, navbar_Styles } from "F:\JavaScript-main\Local Storage\Components\index.html";
+import { createElement, getElement } from "../Components/Helper.js";
+import { navbar_Components, navbar_Styles } from "../Components/Navbar.js";
+
 
 const ProductData = JSON.parse(localStorage.getItem("productData")) || [];
 const cartList = JSON.parse(localStorage.getItem("cartList")) || [];
@@ -77,12 +73,12 @@ const existUser = () => {
   if (isLogin) {
     if (ProductData.length === 0) {
       alert("You have to add product first!!");
-      window.location.href = "F:\JavaScript-main\Local Storage\HTML\Add_Product.html";
+      window.location.href = "\JavaScript-main\Local Storage\HTML\Add_Product.html";
       return;
     } else UI_Product(ProductData);
   } else {
     alert("You have to login first!!");
-    window.location.href = "F:\JavaScript-main\Local Storage\HTML\Login.html";
+    window.location.href = "/JavaScript-main/Local Storage/HTML/Login.html";
   }
 };
 

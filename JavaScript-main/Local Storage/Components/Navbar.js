@@ -1,94 +1,94 @@
 const navbar_Components = () => {
-  return `<nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container">
-        <a class="navbar-brand me-auto" href="/Local Storage/index.html"
-          >Logo</a
-        >
-        <div
-          class="offcanvas offcanvas-end"
-          tabindex="-1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
-        >
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-              <a href="/Local Storage/index.html">Logo</a>
-            </h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a
-                  class="nav-link active mx-lg-2 text-lg-light text-dark"
-                  aria-current="page"
-                  href="/Local Storage/index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link active mx-lg-2"
-                  href="/Local Storage/HTML/Product.html"
-                  >Product</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link active mx-lg-2"
-                  href="/Local Storage/HTML/Add_Product.html"
-                  >Product Form</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link active mx-lg-2"
-                  href="/Local Storage/HTML/CartPage.html"
-                  >Cart</a
-                >
-              </li>
-              <li class="nav-item">
-                <div class="container-fluid">
-                  <form class="d-flex" role="search" id="search">
-                    <input
-                      class="form-control me-2"
-                      type="search"
-                      placeholder="Search"
-                      aria-label="Search"
-                      id="input-search"
-                    />
-                    <button class="btn" id="search-btn" type="submit">
-                      Search
-                    </button>
-                  </form>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <a href="/Local Storage/HTML/Login.html" class="login-button mx-1"
-          >Login</a
-        >
-        <a class="login-button mx-1" href="/Local Storage/HTML/Signup.html"
-          >Sign Up</a
-        >
+  return ` <nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand me-auto" href="/JavaScript-main/Local Storage/index.html"
+      >Logo</a
+    >
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasNavbar"
+      aria-labelledby="offcanvasNavbarLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+          <a href="/JavaScript-main/Local Storage/index.html">Logo</a>
+        </h5>
         <button
-          class="navbar-toggler pe-0"
           type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
-          aria-label="Toggle navigation"
-        >
-          <span><img src="/Local Storage/Images/menu-bar.png" alt="" /></span>
-        </button>
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
       </div>
-    </nav>`;
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a
+              class="nav-link active mx-lg-2 text-lg-light text-dark"
+              aria-current="page"
+              href="/JavaScript-main/Local Storage/index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active mx-lg-2"
+              href="/JavaScript-main/Local Storage/HTML/Product.html"
+              >Product</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active mx-lg-2"
+              href="/JavaScript-main/Local Storage/HTML/Add_Product.html"
+              >Product Form</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active mx-lg-2"
+              href="/JavaScript-main/Local Storage/HTML/CartPage.html"
+              >Cart</a
+            >
+          </li>
+          <li class="nav-item">
+            <div class="container-fluid">
+              <form class="d-flex" role="search" id="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                  id="input-search"
+                />
+                <button class="btn" id="search-btn" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <a href="/JavaScript-main/Local Storage/HTML/Login.html" class="login-button mx-1"
+      >Login</a
+    >
+    <a class="login-button mx-1" href="/JavaScript-main/Local Storage/HTML/Signup.html"
+      >Sign Up</a
+    >
+    <button
+      class="navbar-toggler pe-0"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasNavbar"
+      aria-controls="offcanvasNavbar"
+      aria-label="Toggle navigation"
+    >
+      <span><img src="/Local Storage/Images/menu-bar.png" alt="" /></span>
+    </button>
+  </div>
+</nav>`;
 };
 
 const navbar_Styles = () => {

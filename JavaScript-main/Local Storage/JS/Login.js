@@ -1,5 +1,6 @@
-import { getElement } from "F:\JavaScript-main\Local Storage\Components\Helper.js";
-import { navbar_Components, navbar_Styles } from "F:\JavaScript-main\Local Storage\Components\index.html";
+import { getElement } from "../Components/Helper.js";
+import { navbar_Components, navbar_Styles } from "../Components/Navbar.js";
+
 
 const signUpData = JSON.parse(localStorage.getItem("userData")) || {};
 const isLogin = localStorage.getItem("isLogin") || false;
@@ -32,7 +33,7 @@ const LoginData = (event) => {
     }
   } else {
     alert("Account not found");
-    window.location.href = "F:\JavaScript-main\Local Storage\HTML\Signup.html";
+    window.location.href = "/JavaScript-main/Local Storage/HTML/Signup.html";
   }
 };
 

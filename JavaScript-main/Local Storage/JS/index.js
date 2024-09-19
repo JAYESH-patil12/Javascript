@@ -1,5 +1,6 @@
-import { getElement } from "F:\JavaScript-main\Local Storage\Components\Helper.js";
-import { navbar_Components, navbar_Styles } from "F:\JavaScript-main\Local Storage\Components\index.html";
+import { getElement } from "../Components/Helper.js";
+import { navbar_Components, navbar_Styles } from "../Components/Navbar.js";
+
 
 const navbar = () => {
   const navbar = getElement("navbar");

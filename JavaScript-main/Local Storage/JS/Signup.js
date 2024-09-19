@@ -1,5 +1,5 @@
-import { getElement, getValue } from "F:\JavaScript-main\Local Storage\Components\Helper.js";
-import { navbar_Components, navbar_Styles } from "F:\JavaScript-main\Local Storage\Components\index.html";
+import { getElement } from "../Components/Helper.js";
+import { navbar_Components, navbar_Styles } from "../Components/Navbar.js";
 
 const isLogin = localStorage.getItem("isLogin") || false;
 const signUpForm = getElement("SignupForm");
@@ -20,7 +20,7 @@ const SignUpData = (event) => {
 
   if (isLogin) {
     alert("You have already signed up!! Please Login into your account");
-    window.location.href = "F:\JavaScript-main\Local Storage\HTML\Login.html";
+    window.location.href = "/JavaScript-main/Local Storage/HTML/Signup.html";
     return;
   }
 
@@ -43,7 +43,7 @@ const SignUpData = (event) => {
       };
       localStorage.setItem("userData", JSON.stringify(userData));
       alert("Form submitted successfully!");
-      window.location.href = "F:\JavaScript-main\Local Storage\HTML\Login.html";
+      window.location.href = "/JavaScript-main/Local Storage/HTML/Login.html";
     }
   } else {
     signUpForm.classList.add("was-validated");
